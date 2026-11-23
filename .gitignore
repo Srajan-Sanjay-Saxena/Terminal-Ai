@@ -1,0 +1,47 @@
+# Rust build output
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo: keep Cargo.lock (this is a binary crate)
+# Cargo.lock
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# Logs and local state
+*.log
+logs/
+.terminal-ai/
+sessions/
+
+# Profiling / coverage
+*.profraw
+*.profdata
+flamegraph.svg
+perf.data*
+cobertura.xml
+lcov.info
+tarpaulin-report.html
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.kiro/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
