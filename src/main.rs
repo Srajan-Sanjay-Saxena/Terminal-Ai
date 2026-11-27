@@ -1,4 +1,5 @@
 mod cli;
+mod ui;
 mod welcome;
 
 use anyhow::Result;
